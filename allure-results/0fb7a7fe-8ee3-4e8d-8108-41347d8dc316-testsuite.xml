@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714173190561' stop='1714173216159'>
+    <name>Login site CWI</name>
+    <title>Login site CWI</title>
+    <test-cases>
+        <test-case start='1714173190580' status='passed' stop='1714173200985'>
+            <name>Visualizar opção de recuperar senha esquecida</name>
+            <title>Visualizar opção de recuperar senha esquecida</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714173201014' status='passed' stop='1714173208698'>
+            <name>Realizar login com dados inválidos (example #1)</name>
+            <title>Realizar login com dados inválidos (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714173208718' status='passed' stop='1714173216159'>
+            <name>Realizar login com dados inválidos (example #2)</name>
+            <title>Realizar login com dados inválidos (example #2)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

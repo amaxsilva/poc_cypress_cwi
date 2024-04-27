@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714226531265' stop='1714226556643'>
+    <name>Login site CWI</name>
+    <title>Login site CWI</title>
+    <test-cases>
+        <test-case start='1714226531283' status='passed' stop='1714226541120'>
+            <name>Visualizar opção de recuperar senha esquecida</name>
+            <title>Visualizar opção de recuperar senha esquecida</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714226541142' status='broken' stop='1714226548687'>
+            <name>Realizar login com dados inválidos (example #1)</name>
+            <title>Realizar login com dados inválidos (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cypress detected you registered a(n) `afterEach` hook while a test was running (possibly a hook nested inside another hook). All hooks must be registered before a test begins executing.
+                
+                Move the `afterEach` into a suite callback or the global scope.</message>
+                <stack-trace>CypressError: Cypress detected you registered a(n) `afterEach` hook while a test was running (possibly a hook nested inside another hook). All hooks must be registered before a test begins executing.
+                
+                Move the `afterEach` into a suite callback or the global scope.
+                    at cypressErr (https://cwi.com.br/__cypress/runner/cypress_runner.js:75257:18)
+                    at Object.errByPath (https://cwi.com.br/__cypress/runner/cypress_runner.js:75312:10)
+                    at Suite._createHook (https://cwi.com.br/__cypress/runner/cypress_runner.js:145948:76)
+                    at Suite.afterEach (https://cwi.com.br/__cypress/runner/cypress_runner.js:157727:19)
+                    at Suite.&lt;computed> [as afterEach] (https://cwi.com.br/__cypress/runner/cypress_runner.js:145956:23)
+                    at afterEach (https://cwi.com.br/__cypress/runner/cypress_runner.js:161147:17)
+                    at wrapped (https://cwi.com.br/__cypress/runner/cypress_runner.js:138403:43)
+                From Your Spec Code:
+                    at Context.eval (cypress/support/e2e.js:19:2)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1714226548777' status='broken' stop='1714226556637'>
+            <name>Realizar login com dados inválidos (example #2)</name>
+            <title>Realizar login com dados inválidos (example #2)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cypress detected you registered a(n) `afterEach` hook while a test was running (possibly a hook nested inside another hook). All hooks must be registered before a test begins executing.
+                
+                Move the `afterEach` into a suite callback or the global scope.</message>
+                <stack-trace>CypressError: Cypress detected you registered a(n) `afterEach` hook while a test was running (possibly a hook nested inside another hook). All hooks must be registered before a test begins executing.
+                
+                Move the `afterEach` into a suite callback or the global scope.
+                    at cypressErr (https://cwi.com.br/__cypress/runner/cypress_runner.js:75257:18)
+                    at Object.errByPath (https://cwi.com.br/__cypress/runner/cypress_runner.js:75312:10)
+                    at Suite._createHook (https://cwi.com.br/__cypress/runner/cypress_runner.js:145948:76)
+                    at Suite._createHook (https://cwi.com.br/__cypress/runner/cypress_runner.js:145940:34)
+                    at Suite.afterEach (https://cwi.com.br/__cypress/runner/cypress_runner.js:157727:19)
+                    at Suite.&lt;computed> [as afterEach] (https://cwi.com.br/__cypress/runner/cypress_runner.js:145956:23)
+                    at afterEach (https://cwi.com.br/__cypress/runner/cypress_runner.js:161147:17)
+                    at wrapped (https://cwi.com.br/__cypress/runner/cypress_runner.js:138403:43)
+                From Your Spec Code:
+                    at Context.eval (cypress/support/e2e.js:19:2)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

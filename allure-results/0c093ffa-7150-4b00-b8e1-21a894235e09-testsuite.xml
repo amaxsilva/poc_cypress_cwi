@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714172515644' stop='1714172516072'>
+    <name></name>
+    <title></title>
+    <test-cases>
+        <test-case start='1714172515646' status='broken' stop='1714172516005'>
+            <name>An uncaught error was detected outside of a test</name>
+            <title>An uncaught error was detected outside of a test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your test code, not from Cypress.
+                
+                  > Cypress.Commands.on is not a function
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.</message>
+                <stack-trace>TypeError: The following error originated from your test code, not from Cypress.
+                
+                  > Cypress.Commands.on is not a function
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.
+                    at 2../commands (cypress/support/e2e.js:18:17)
+                    at o (node_modules/browser-pack/_prelude.js:1:0)
+                    at r (node_modules/browser-pack/_prelude.js:1:0)
+                    at eval (node_modules/browser-pack/_prelude.js:1:0)
+                    at eval (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

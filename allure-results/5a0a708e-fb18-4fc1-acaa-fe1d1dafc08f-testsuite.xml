@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714174482416' stop='1714174493028'>
+    <name>Login site CWI</name>
+    <title>Login site CWI</title>
+    <test-cases>
+        <test-case start='1714174482435' status='broken' stop='1714174492955'>
+            <name>Visualizar opção de recuperar senha esquecida</name>
+            <title>Visualizar opção de recuperar senha esquecida</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cypress.moment is not a function
+                
+                Because this error occurred during a `after each` hook we are skipping all of the remaining tests.</message>
+                <stack-trace>TypeError: Cypress.moment is not a function
+                
+                Because this error occurred during a `after each` hook we are skipping all of the remaining tests.
+                    at Context.eval (cypress/support/e2e.js:22:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
