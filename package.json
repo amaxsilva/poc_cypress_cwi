@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "cypress:browser": "cypress run --browser edge",
-        "cypress": "cypress run"
+        "cypress": "cypress run",
+        "allure": "npx cypress run && allure generate allure-results --clean && allure open"
     },
     "keywords": [],
     "author": "",

@@ -1,5 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Apr 27 10:17:41 AMT 2024","Sat Apr 27 10:17:50 AMT 2024","8915","","Login site CWI","","Login site CWI","Realizar login com dados inválidos (example #2)","Realizar login com dados inválidos (example #2)",""
-"broken","Fri Apr 26 19:19:22 AMT 2024","Fri Apr 26 19:19:22 AMT 2024","341","","","","","An uncaught error was detected outside of a test","An uncaught error was detected outside of a test",""
-"passed","Sat Apr 27 10:17:22 AMT 2024","Sat Apr 27 10:17:32 AMT 2024","10152","","Login site CWI","","Login site CWI","Visualizar opção de recuperar senha esquecida","Visualizar opção de recuperar senha esquecida",""
-"passed","Sat Apr 27 10:17:32 AMT 2024","Sat Apr 27 10:17:41 AMT 2024","9177","","Login site CWI","","Login site CWI","Realizar login com dados inválidos (example #1)","Realizar login com dados inválidos (example #1)",""
+"passed","Sat Apr 27 10:34:48 AMT 2024","Sat Apr 27 10:34:56 AMT 2024","8417","","Login site CWI","","Login site CWI","Realizar login com dados inválidos (example #2)","Realizar login com dados inválidos (example #2)",""
+"passed","Sat Apr 27 10:34:30 AMT 2024","Sat Apr 27 10:34:39 AMT 2024","9144","","Login site CWI","","Login site CWI","Visualizar opção de recuperar senha esquecida","Visualizar opção de recuperar senha esquecida",""
+"passed","Sat Apr 27 10:34:39 AMT 2024","Sat Apr 27 10:34:48 AMT 2024","8129","","Login site CWI","","Login site CWI","Realizar login com dados inválidos (example #1)","Realizar login com dados inválidos (example #1)",""

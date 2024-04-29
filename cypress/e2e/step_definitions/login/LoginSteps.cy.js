@@ -25,10 +25,10 @@ And(/^informo senha "(.*)" incorreta$/, (senha) => {
 
 When(/^clico no botão de realizar login$/, () => {
     loginPage.clicarBotaoRealizarLogin();
-    cy.takeScreenshotAndAddToAllure();
+   // cy.takeScreenshotAndAddToAllure();
 });
 
 Then(/^devo visualizar mensagem de erro$/, () => {
     loginPage.visualizarErroLogin();
-    cy.takeScreenshotAndAddToAllure();
+    //cy.takeScreenshotAndAddToAllure();
 });
